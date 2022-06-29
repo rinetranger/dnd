@@ -52,4 +52,61 @@ header{
     border:none;
     outline: none;
 }
+.taskBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 0;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1pz 1px 1px 1px rgb(75,75,75);
+}
+
+.taskText{
+    margin-left: 12px;
+}
+.taskTrashButton{
+    margin-right: 9px;
+    border:none;
+    cursor: pointer;
+}
+.taskCardsArea{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.addTaskCardButtonArea{
+    margin-left: 1%;
+    margin-top: 25px;
+}
+.addTaskCardButton{
+    padding: 10px 18px;
+    border-radius: 9999px;
+    font-size: 30px;
+    background-color: rgb(165, 235, 172);
+    box-shadow: 3px 3px 8px 1px black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.addTaskCardButton:hover{
+    box-shadow: none;
+    transform:translate(3px,3px)
+
+}
+
+.titleAndDeleteButton{
+    display: flex;
+    justify-content: space-between;
+}
+.taskCardDeleteButton{
+    border:none;
+    background-color: rgb(228,228,228);
+    color:rgb(123, 19, 19);
+    cursor: pointer;
+}
+
+
+
 
